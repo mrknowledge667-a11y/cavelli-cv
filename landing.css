@@ -20,15 +20,11 @@ html.cavelli-landing-active body {
 .wm-landing {
   background: var(--wm-bg);
   color: var(--wm-ink);
-  display: none;
+  display: block;
   font-family: Inter, Arial, sans-serif;
   letter-spacing: 0;
   min-height: 100vh;
   overflow-x: hidden;
-}
-
-html.cavelli-landing-active .wm-landing {
-  display: block;
 }
 
 .wm-landing * {

@@ -198,7 +198,7 @@
 
   function isLandingPath() {
     const path = window.location.pathname.replace(/\/+$/, '') || '/';
-    return path === '/';
+    return path === '/' || path.endsWith('/index.html');
   }
 
   function syncVisibility() {
